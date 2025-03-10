@@ -10,6 +10,7 @@
     --color-card: white;
     --color-subt: #EBE5C2;
     --color-elm: #B9B28A;
+    --color-elm-2: #F5ECD5;
     --color-texto: #504B38;
 }
 
@@ -156,4 +157,27 @@ footer {
 .img-margin {
     margin: 20px;
     width: 200px;
+}
+
+/* Propiedades para separar los elementos del contenedor */
+.cont-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Propiedades para añadir un padding interno */
+.caja {
+    background-color: var(--color-elm);
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+/* Propiedades de un div interno para ver el padding del div externo */
+.intern-div {
+    background-color: var(--color-elm-2);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
