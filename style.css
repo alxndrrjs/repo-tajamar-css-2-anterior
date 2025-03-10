@@ -108,3 +108,18 @@ footer {
 #div-rgb {
     background-color: rgb(144, 238, 144);
 }
+
+/* Propiedades para establecer una imagen de fondo en un div */
+#div-img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-card);
+    width: 300px;
+    height: 300px;
+    background-image: url('imgs/textura.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
