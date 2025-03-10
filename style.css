@@ -211,3 +211,9 @@ footer {
 .input-outline:focus {
     outline: 3px solid red;
 }
+
+/* Propieades para subrayar enlaces de rojo */
+.cont-around a {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
