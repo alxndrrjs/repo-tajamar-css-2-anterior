@@ -199,3 +199,15 @@ footer {
     border: solid 1px;
     margin: 10px;
 }
+
+/* Propiedades para agregar un outline a un input */
+.input-outline {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: 3px solid blue;
+}
+
+.input-outline:focus {
+    outline: 3px solid red;
+}
