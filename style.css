@@ -259,3 +259,26 @@ footer {
     content: '';
     list-style-type: none !important;
 }
+
+/* Propiedades para crear una tabla con bordes grises en todas las celdas */
+.table-border-gris {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.table-border-gris th {
+    border: 1px solid gray;
+    background-color: var(--color-elm);
+    padding: 8px;
+    text-align: center;
+}
+
+.table-border-gris td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-border-gris tr:hover {
+    background-color: var(--color-elm-2);
+}
