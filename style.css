@@ -1,16 +1,23 @@
 /* ========== Variables CSS ========== */
 :root {
-    --color-fondo: #FFCDB2;
+    /* --color-fondo: #FFCDB2;
     --color-card: white;
     --color-subt: #FFB4A2;
-    --color-texto: #93744c;
+    --color-texto: #93744c; */
+
+    /* Colores de prueba */
+    --color-fondo: #F8F3D9;
+    --color-card: white;
+    --color-subt: #EBE5C2;
+    --color-elm: #B9B28A;
+    --color-texto: #504B38;
 }
 
 /* ========== Propiedades del cuerpo de la página  ========== */
 body {
     background-color: var(--color-fondo);
     font-family: 'Montserrat';
-    height: 100vh; /* Hacemos que el cuerpo ocupe toda la altura de la ventana */
+    height: 100%; /* Hacemos que el cuerpo ocupe toda la altura de la ventana */
     overflow-x: hidden;
     margin: 0;
     padding: 5%;
@@ -122,4 +129,18 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  }
+}
+
+/* Propiedades para agregar un borde a un div y redondear las esquinas */
+.div-border {
+    background-color: var(--color-elm);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    height: 150px;
+    border: 2px;
+    border-radius: 10px;
+}
