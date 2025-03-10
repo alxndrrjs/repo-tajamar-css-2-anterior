@@ -92,3 +92,8 @@ footer {
 .destacado {
     background-color: yellow;
 }
+
+/* Propiedades para centrar texto */
+#titulo {
+    text-align: center;
+}
