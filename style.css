@@ -253,3 +253,9 @@ footer {
 .purple-links:hover {
     color: purple;
 }
+
+/* Propiedades para quitar los bullets de una lista no ordenada */
+#list-bullet li::before {
+    content: '';
+    list-style-type: none !important;
+}
