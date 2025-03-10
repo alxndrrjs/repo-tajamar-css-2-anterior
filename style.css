@@ -1,0 +1,89 @@
+/* ========== Variables CSS ========== */
+:root {
+    --color-fondo: #FFCDB2;
+    --color-card: white;
+    --color-subt: #FFB4A2;
+    --color-texto: #93744c;
+}
+
+/* ========== Propiedades del cuerpo de la página  ========== */
+body {
+    background-color: var(--color-fondo);
+    font-family: 'Montserrat';
+    height: 100vh; /* Hacemos que el cuerpo ocupe toda la altura de la ventana */
+    overflow-x: hidden;
+    margin: 0;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ========== Propiedades del header  ========== */
+header {
+    background-color: var(--color-card);
+    font-family: "News Cycle";
+    font-size: 20px;
+    color: var(--color-texto);
+    text-align: center;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1{
+    margin: 25px auto 0px auto;
+    color: var(--color-texto);
+}
+
+header h3 {
+    margin: 0px auto 20px auto;
+}
+
+/* ========== Propiedades del main  ========== */
+main {
+    background-color: var(--color-card);
+    margin: 0;
+}
+
+/* ========== Propiedades del card para cada ejercicio  ========== */
+.ejercicio-card{
+    margin: 0;
+    padding: 0;
+}
+
+.subt-card {
+    background-color: var(--color-subt);
+    color: var(--color-texto);
+    font-size: smaller;
+    margin: 0;
+    padding: 7px 10%;
+}
+
+.subt-card h2 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.cont-card {
+    color: var(--color-texto);
+    padding: 7px 10%;
+}
+
+/* ========== Propiedades del footer  ========== */
+footer {
+    background-color: var(--color-card);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+/* ========== Propiedades de cada clase o id para los ejercicios ========== */
+
+/* Propiedad para cambiar de color los párrafos especificando un elemento básico */
+.elm-basic p {
+    color: red;
+}
