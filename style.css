@@ -181,3 +181,14 @@ footer {
     margin: 0;
     padding: 0;
 }
+
+/* Propiedades para un div con alto y ancho fijo */
+.div-wihe {
+    background-color: var(--color-elm);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+}
