@@ -90,6 +90,13 @@ footer {
 
 /* ========== Propiedades de cada clase o id para los ejercicios ========== */
 
+/* Propiedad para centrar elementos en un div */
+.cont-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Propiedad para cambiar de color los párrafos especificando un elemento básico */
 .elm-basic p {
     color: red;
@@ -143,4 +150,10 @@ footer {
     height: 150px;
     border: 2px;
     border-radius: 10px;
+}
+
+/* Propiedades para añadir márgenes a una imagen */
+.img-margin {
+    margin: 20px;
+    width: 200px;
 }
