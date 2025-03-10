@@ -298,3 +298,29 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
+
+/* Propiedades para colocar el botón subir */
+.cont-btn-up {
+    flex-direction: column;
+    text-align: center;
+}
+
+.cont-relative {
+    position: relative;
+    width: 500px;
+    height: 50px;
+}
+
+.btn-abs {
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-texto);
+    background-color: var(--color-elm);
+}
