@@ -192,3 +192,10 @@ footer {
     width: 300px;
     height: 150px;
 }
+
+/* Propiedades para un div con modelo de caja */
+.div-caja {
+    padding: 25px;
+    border: solid 1px;
+    margin: 10px;
+}
