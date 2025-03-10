@@ -68,7 +68,7 @@ main {
 
 .cont-card {
     color: var(--color-texto);
-    padding: 7px 10%;
+    padding: 15px 10%;
 }
 
 /* ========== Propiedades del footer  ========== */
@@ -96,4 +96,15 @@ footer {
 /* Propiedades para centrar texto */
 #titulo {
     text-align: center;
+}
+
+/* Comentarios en CSS (Estilos principales) */
+/* propiedad para centrar texto */
+.text-center {
+    text-align: center;
+}
+
+/* Propiedad para establecer un color rgb en el fondo de un div */
+#div-rgb {
+    background-color: rgb(144, 238, 144);
 }
