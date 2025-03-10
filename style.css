@@ -87,3 +87,8 @@ footer {
 .elm-basic p {
     color: red;
 }
+
+/* Propiedad de clase "destacado" */
+.destacado {
+    background-color: yellow;
+}
