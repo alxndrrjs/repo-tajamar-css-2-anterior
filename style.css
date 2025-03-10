@@ -213,7 +213,7 @@ footer {
 }
 
 /* Propieades para subrayar enlaces de rojo */
-.cont-around a {
+.red-links {
     text-decoration: underline;
     text-decoration-color: red;
 }
@@ -242,4 +242,14 @@ footer {
     font-weight: 900;
     margin-right: 10px;
     color: gold;
+}
+
+/* Propiedades para hacer los enlaces morados al pasar el cursor */
+.purple-links {
+    text-decoration: none;
+    color: var(--color-texto);
+}
+
+.purple-links:hover {
+    color: purple;
 }
